@@ -19,7 +19,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    @IBAction func CalculateBill(_ sender: Any) {
+        
+    }
+    
+@IBAction func onTapTotalBill(_ sender: Any) {
+    
+    view.endEditing(true)
+    }
 }
 
